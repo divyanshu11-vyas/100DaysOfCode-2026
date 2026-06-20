@@ -8,7 +8,6 @@ bool areArraysEqual(const vector<int>& arr1, const vector<int>& arr2) {
         return false;
     }
     
-    // Element-wise check is O(n) — unavoidable, must inspect each element
     for (size_t i = 0; i < arr1.size(); i++) {
         if (arr1[i] != arr2[i]) {
             return false;
